@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root {
+
+    --universal-color: rgb(55, 173, 219);
+    --universal-font: 'Roboto', sans-serif;
+ 
+}
+html {
+     
+    height:100%;
+}
+body {
+    overflow-x: hidden;
+    background-color: white;
+    height: fit-content;
+
+    
+}
+
+.navbar-contactus {  /* navbar and contact us start */
+
+    width: 100%;
+    height: 150px;
+    background-color: rgb(55, 173, 219);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+
+.contactus-container {
+
+    text-align: center;
+    height: 226px;
+    width: 100%;
+    background-color:rgb(55, 173, 219);
+    
+
+}
+
+.contactus-container h1  {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.9rem;
+    color: #fff;
+    padding-bottom: 30px;
+    
+}
+
+.contactus-container p {
+
+    font-family: var(--universal-font) ;
+    color: #fff;
+    opacity: 0.7;
+    padding-left: 10px;
+
+}
+.navbar li {
+   
+    display: inline;
+    font-family: var(--universal-font);
+    color: #fff;
+    opacity: 0.9;
+    margin-left: 50px;
+    list-style: none;
+    font-size: 15px;
+    position: relative;
+    left: 240px;
+    list-style: none;
+}
+
+a {
+
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+  
+    color: whitesmoke;
+
+}
+
+#logo {
+
+   position: relative;
+   left: 20px;
+   top:  23px;
+}
+  #freetrial{
+  float: right;
+  width: 180px;
+  height: 47px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-style: none;
+  cursor: pointer;
+  background-color: #548CA8;
+  color: #fff;
+  font-family: var(--universal-font);
+  position: relative;
+  right: 200px;
+  bottom: 35px;
+}
+
+#freetrial:hover {
+
+    background-color:  #000;
+}
+
+#login {
+
+    float: right;
+    position: relative;
+    left: 100px;
+    width: 100px;
+    height: 47px;
+    bottom: 35px;    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-style: none;
+    background-color: var(--universal-color);
+    color: #fff;
+    font-family: var(--universal-font);
+    border-color: #fff;
+    border-style: solid;
+    cursor: pointer;
+
+}
+
+#login:hover{
+
+    background-color: #000;
+
+}
+
+/* navbar end*/
+
+
+.ultimate-container {
+
+    height: 300px;
+
+}
+
+.form-container {   /* form starts */
+    margin-top: 140px;
+    margin-left: 90px;
+}
+
+
+.form-container h2 {
+
+    color:#548CA8;
+    font-family: var(--universal-font);
+    margin-bottom: 30px;
+}
+
+.form-container p {
+
+    font-family: var(--universal-font);
+    font-style: normal;
+    margin-bottom: 30px;
+
+  
+}
+input {
+    display: block;
+    width: 490px;
+    height: 35px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-style: solid black;
+    padding-left: 30px;
+    opacity: 0.7;
+    margin-bottom: 30px;
+
+}
+textarea{
+    width: 490px;
+    resize: none;
+    margin-top: 30px;
+    height: 190px;
+    border-radius: 3px ;
+    -webkit-border-radius: 3px ;
+    -moz-border-radius: 3px ;
+    -ms-border-radius: 3px ;
+    -o-border-radius: 3px ;
+    border-style: solid black;
+    opacity: 0.7;
+    padding-left: 30px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+
+#submitbutton {
+
+    width: 140px;
+    height: 40px;
+    color: #fff;
+    background-color: grey;
+    font-family: var(--universal-font);
+    border-style: hidden;
+    position: relative;
+    left: 350px;
+    padding-right: 30px;
+    cursor: pointer;
+} /* form end */
+
+
+.landerteam-container { /* lander team starts */
+
+    width: 50%;
+    float: left;
+    margin-left: 60em;
+    margin-top: -44.5em;
+
+}
+
+.landerteam-container #landerteam {
+    
+    font-family: var(--universal-font);
+    color:#548CA8;
+    padding-bottom: 20px;
+}
+
+.landerteam-container p {
+
+    color: #000;
+    font-family: var(--universal-font);
+    padding-bottom: 20px;
+}
+
+.landerteam-container #othersway {
+
+    font-family: var(--universal-font);
+    color: #000;
+    padding-bottom: 30px;
+}
+
+  #iconfb  {
+    color:#548CA8;
+    font-size: 50px;
+}
+
+#bethefirst {
+
+    position: relative;
+    left: 60px;
+    bottom: 45px;
+
+}
+
+#fbspan {
+
+    color: #548CA8;
+    cursor: pointer;
+}
+
+#twitter {
+    font-size: 50px;
+    color: #548CA8;
+    border-radius: 0.8em;
+}
+    
+#wantthebest {
+
+    position: relative;
+    left: 60px;
+    bottom: 45px;
+
+}
+
+#twitterspan {
+    color: #548CA8;
+    cursor: pointer;
+}
+
+#lkdnicon {
+
+    font-size: 50px;
+    color: #548CA8;
+}
+
+#followspan { 
+    color: #548CA8;
+    cursor: pointer;
+}
+
+#followus {
+    position: relative;
+    left: 60px;
+    bottom: 45px;
+}
+
+/* lander team starts */
+
+footer { /* footer starts */
+
+    background-color: var(--universal-color);
+    height: 320px;
+    margin-top: 0px;
+    padding-left: 30px;
+    width: 100%;
+    
+}
+.clearfix {
+    clear: both;
+}
+
+.footerlist {
+    font-family: var(--universal-font);
+    align-items: center;
+    left: 300px;
+    width: 140px;
+    float: left;
+    margin: 40px
+
+}
+
+
+.list {
+
+    float: left;
+    line-height: 1.6rem;
+    margin: 20px 40px;
+}
+
+
+
+.footerlist .title {
+
+    color: #fff;
+    font-style: normal;
+
+}
+
+.footerlist li {
+
+    list-style: none;
+    color: whitesmoke;
+    opacity: 0.6;
+    
+}
+
+.footerlist i {
+
+    color: #548CA8;
+    stroke:#548CA8;
+}
+
+.footerlist p {
+
+    color:#fff;
+    opacity: 0.6;
+}
+
+#footerbutton {
+    background-color: grey;
+    font-family: var(--universal-font);
+    color: #fff;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-style: hidden;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#footerbutton:hover {
+
+    background-color: black;
+
+}
+
+.copyright {
+
+    height: 20px;
+    width: 100%;
+    
+}
+#copyrightspara {
+
+    font-family: var(--universal-font);
+    color: whitesmoke;
+    opacity: 0.6;
+}
+
+#copyrightspan {
+    color: #548CA8
+}
